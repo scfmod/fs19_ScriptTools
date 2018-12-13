@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>SCFmod</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>SCFmod ScriptTools</en>
+    </title>
+    <description>
+        <en><![CDATA[Toolkit for scripting/testing]]></en>
+    </description>
+    <iconFilename>store.png</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="main.lua" />
+    </extraSourceFiles>
+</modDesc>
