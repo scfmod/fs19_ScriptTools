@@ -80,8 +80,7 @@ function TableInspector:traverse(nDepth, opt)
 
                 table.insert(self.variables, {
                     name = k,
-                    value = inspector,
-                    classId = classId
+                    value = inspector
                 })
             else
                 table.insert(self.variables, {
@@ -282,12 +281,6 @@ function TableInspector:printAsChild(nDepth, opt)
                 else
                     _print(nDepth, name .. ' = {}, -- MAX_DEPTH')
                 end
-                --elseif entry.classId ~= nil then
-                --    if i == #variables then
-                --        _print(1, name .. ' = {} -- classId: ' .. tostring(entry.classId))
-                --    else
-                --        _print(1, name .. ' = {}, -- classId: ' .. tostring(entry.classId))
-                --    end
             else
                 _print(nDepth, name .. ' = {')
 
